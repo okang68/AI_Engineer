@@ -8,5 +8,5 @@ print(result[0]["generated_text"])
 
 # 情感分析
 classifier = pipeline("sentiment-analysis")
-result = classifier("这家餐厅的菜太好吃了，服务也很棒！")
+result = classifier("Thank you so much!")
 print(result)
