@@ -15,5 +15,6 @@ response = client.chat.completions.create(
 )
 
 print(response.choices[0].message.content)
+print("tokens:", response.usage.total_tokens)
 
 # not verified
