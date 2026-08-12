@@ -3,3 +3,7 @@
 __pycache__
 lecture
 video
+
+.agents
+.claude
+skills-lock.json
